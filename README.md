@@ -36,44 +36,54 @@ Fill in the sections below yourself, then:
 
 ### Session description
 
-Explore an interactive voice session in Microsoft Foundry, then investigate turn-taking, interruption, and multilingual conversations using neutral synthetic exercises. This first increment provides setup, shared helpers, and notebooks 01–03; tracing, evaluation, and optional extensions follow later.
+Voice is quickly becoming how people talk to AI agents, but a voice agent that impresses in a demo can struggle with real customers. They interrupt, pause, switch languages and call from noisy places. Voice agents in Microsoft Foundry are now generally available, with new real-time models, built-in handoff between agents, and lifecycle management from the first build to production. In this session, you’ll see how to build a voice agent from a template or with AZD CLI, deploy it to web and phone channels, and use tracing, monitoring and evaluation to keep improving it. You’ll also catch up on the latest Azure Speech launches, then hear from Landis, ASUS and Leapmotor on running voice agents in contact centers, global customer service and the car.
 
 ### 🚀 Getting started
 
-#### In a guided session
-
-If you're following along during a live session:
-
-1. Open the [attendee path](instructions/README.md).
-2. Review [setup and service prerequisites](instructions/00_setup.md) before the session.
-3. Follow the presenter through quickstart, turn-taking, and multilingual exercises.
-
 #### On your own
 
-If you're learning at your own pace:
+Use this repository to revisit the session at your own pace:
 
-1. Clone this repository
-2. Follow [setup and service prerequisites](instructions/00_setup.md).
-3. Use the [attendee path](instructions/README.md) in order, recording observations after each exercise.
+1. Clone or browse this repository.
+2. Review the session description, learning outcomes, and technologies below.
+3. Follow the [attendee instructions](instructions/README.md), starting with
+   [Azure deployment and local setup](instructions/00_setup.md).
+4. Work through notebooks 01–03 in order, using the step-by-step guidance below.
+5. Return for the session slides when they are added.
+
+| Exercise | Step-by-step guidance | Runnable notebook |
+|----------|-----------------------|-------------------|
+| Quickstart voice session | [Quickstart](instructions/01_quickstart.md) | [Notebook 01](src/notebooks/01_quickstart_voice_session.ipynb) |
+| Turn-taking and barge-in | [Turn-taking](instructions/02_turn_taking.md) | [Notebook 02](src/notebooks/02_turn_taking_and_barge_in.ipynb) |
+| Multilingual and code-switching | [Multilingual](instructions/03_multilingual.md) | [Notebook 03](src/notebooks/03_multilingual_code_switching.ipynb) |
+
+These product-capability exercises use neutral synthetic material and a local
+Python 3.11+ kernel with microphone access. They currently cover the GA Azure
+OpenAI realtime WebSocket API, not every technology or scenario presented in the
+session. Customer presentations are session content only, not repository demos
+or datasets. Tracing/evaluation and optional extensions remain later increments;
+live Azure and audio-device behavior still require validation on your deployment.
+Review the [capability boundaries](docs/capabilities.md) before connecting.
+
+#### Session materials
+
+Session slides will be added later.
 
 ### 🎯 Learning outcomes
 
 By the end of this session, you will be able to:
 
-- Build and inspect an interactive voice session.
-- Explain multilingual, tool, and routing extensions, distinguishing implemented exercises from future modules.
-- Evaluate latency, conversation behavior, and operational readiness; the focused tracing and evaluation segment is planned for a later increment.
+- Build a production-ready voice agent in Microsoft Foundry: start from one of 40+ templates or with the AZD CLI and GitHub Copilot, choose a real-time model such as GPT-Live-1 or Microsoft Realtime Flash, and connect tools, knowledge, memory and guardrails.
+- Deploy and operate it with confidence: release versioned agents to web and phone through Teams Phone, other telephony providers or SIP, then use tracing, monitoring and evaluation to find and fix latency and quality issues.
+- Apply proven patterns from customers in production: handing off from AI to human agents with context (Landis), multilingual service across countries (ASUS), and voice that works across cloud and edge (Leapmotor).
 
 ### 💻 Technologies used
 
-- Microsoft Foundry
-- Azure OpenAI realtime audio capabilities, subject to deployment and regional availability
-- Jupyter notebooks
-
-Use a local Python 3.11+ notebook kernel with microphone access. These samples
-target the GA Azure OpenAI realtime WebSocket API, not a production client.
-See the [attendee path](instructions/README.md) and
-[capability boundaries](docs/capabilities.md) before connecting.
+- Microsoft Foundry: Foundry Agent Service (voice agents, prompt and hosted agents), Foundry IQ, Foundry Tools (including MCP tools), guardrails, memory, observability (tracing, evals)
+- GenAI models: GPT-Live-1, Azure Realtime Flash, Azure OpenAI Realtime, GPT-6 series and broader Foundry models
+- Azure Speech: real-time and fast transcription (including MAI-Transcribe-2), text to speech, avatar, Live Interpreter API
+- Telephony: Microsoft Teams Phone, Azure Communication Services, third-party providers, SIP
+- Azure Developer CLI (azd) and GitHub Copilot
 
 ### 📚 Continue your learning
 
@@ -87,8 +97,6 @@ Pick your next step based on your learning style:
 | **[Microsoft Foundry Community](https://aka.ms/MicrosoftFoundryDiscord-Ignite26)** | Connect with other learners and experts in our Discord community |
 
 ### 🌟 Microsoft Learn MCP Server
-
-<!-- Remove this section if the Microsoft Learn MCP Server is not relevant to the session. -->
 
 The Microsoft Learn MCP Server gives your AI agent direct access to Microsoft's official documentation — grounded, up-to-date answers about the topics in this session.
 
@@ -105,17 +113,12 @@ For more information, visit the [Learn MCP Server repo](https://aka.ms/learnmcp)
 
 ### 👥 Content owners
 
-<!-- TODO: Add yourself as a content owner
-1. Change the src in the image tag to {your github url}.png
-2. Change INSERT NAME HERE to your name
-3. Change the github url in the final href to your url. -->
-
 <table>
 <tr>
-    <td align="center"><a href="http://github.com/yourGitHubHandle">
-        <img src="https://github.com/yourGitHubHandle.png" width="100px;" alt="INSERT NAME HERE"/><br />
-        <sub><b>INSERT NAME HERE</b></sub></a><br />
-            <a href="https://github.com/yourGitHubHandle" title="talk">📢</a>
+    <td align="center"><a href="https://github.com/gcordido">
+        <img src="https://github.com/gcordido.png" width="100px;" alt="Gustavo Cordido"/><br />
+        <sub><b>Gustavo Cordido</b></sub></a><br />
+            <a href="https://github.com/gcordido" title="talk">📢</a>
     </td>
 </tr></table>
 
