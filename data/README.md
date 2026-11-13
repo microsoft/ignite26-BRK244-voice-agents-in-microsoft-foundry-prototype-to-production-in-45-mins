@@ -2,4 +2,6 @@
 
 <!-- IGNITE TEMPLATE PLACEHOLDER: remove this folder when the session needs no data files. -->
 
-Use this folder for sample data or inputs required by the session.
+The [multilingual prompts](prompts/multilingual.json) are neutral synthetic text
+used by notebook 03. No customer data or recorded speech is included. Exercises
+capture audio in memory only; do not save personal or customer audio here.

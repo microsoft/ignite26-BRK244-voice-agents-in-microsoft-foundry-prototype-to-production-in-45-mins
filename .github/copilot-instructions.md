@@ -20,7 +20,7 @@ Plus:
 - Use sentence case for Markdown headings.
 - Use session-owner language. Announce the section being worked on. Do not narrate patches, diagnostics, or editor internals.
 - Track answers within a workflow phase. Do not re-ask questions.
-- Do not choose runtimes, install packages, scaffold implementation code, or run project test suites.
+- Outside Initialize and Finalize, implementation tasks may select runtimes, add dependencies, write runnable code, and run focused validation. Preserve the workflow-specific restrictions below.
 
 ## Initialize scope
 

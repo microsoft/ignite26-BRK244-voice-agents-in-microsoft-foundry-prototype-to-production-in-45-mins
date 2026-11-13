@@ -32,11 +32,11 @@ Fill in the sections below yourself, then:
 
 # [Microsoft Ignite 2026](https://ignite.microsoft.com)
 
-## 🔥BRKXXX: SESSION TITLE
+## 🔥BRK244: Voice agents in Microsoft Foundry: Prototype to production in 45 mins
 
 ### Session description
 
-Add your session description here. Keep it concise — 2-3 sentences about what attendees will learn and why it matters.
+Explore an interactive voice session in Microsoft Foundry, then investigate turn-taking, interruption, and multilingual conversations using neutral synthetic exercises. This first increment provides setup, shared helpers, and notebooks 01–03; tracing, evaluation, and optional extensions follow later.
 
 ### 🚀 Getting started
 
@@ -44,33 +44,36 @@ Add your session description here. Keep it concise — 2-3 sentences about what 
 
 If you're following along during a live session:
 
-1. Step 1
-2. Step 2
-3. Open [`instructions/`](instructions/README.md) when this session includes
-   attendee step-by-step guidance
+1. Open the [attendee path](instructions/README.md).
+2. Review [setup and service prerequisites](instructions/00_setup.md) before the session.
+3. Follow the presenter through quickstart, turn-taking, and multilingual exercises.
 
 #### On your own
 
 If you're learning at your own pace:
 
 1. Clone this repository
-2. Set up your environment
-3. Follow the session guidance in [`instructions/`](instructions/README.md), or
-   use the linked docs-site entry point when this repository uses that pattern
+2. Follow [setup and service prerequisites](instructions/00_setup.md).
+3. Use the [attendee path](instructions/README.md) in order, recording observations after each exercise.
 
 ### 🎯 Learning outcomes
 
 By the end of this session, you will be able to:
 
-- Outcome 1
-- Outcome 2
-- Outcome 3
+- Build and inspect an interactive voice session.
+- Explain multilingual, tool, and routing extensions, distinguishing implemented exercises from future modules.
+- Evaluate latency, conversation behavior, and operational readiness; the focused tracing and evaluation segment is planned for a later increment.
 
 ### 💻 Technologies used
 
-- Technology 1
-- Technology 2
-- Technology 3
+- Microsoft Foundry
+- Azure OpenAI realtime audio capabilities, subject to deployment and regional availability
+- Jupyter notebooks
+
+Use a local Python 3.11+ notebook kernel with microphone access. These samples
+target the GA Azure OpenAI realtime WebSocket API, not a production client.
+See the [attendee path](instructions/README.md) and
+[capability boundaries](docs/capabilities.md) before connecting.
 
 ### 📚 Continue your learning
 

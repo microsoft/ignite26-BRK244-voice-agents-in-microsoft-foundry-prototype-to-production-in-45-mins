@@ -51,7 +51,7 @@ If the request is ambiguous, ask which workflow to run. Do not invent a workflow
 - Initialize does not run scripts, linters, or shell commands. Do not ask permission to run them.
 - Finalize runs its validation checklist by reading files directly with your tools. Do not shell out (bash, grep, curl, node, npx, etc.) to perform validation checks.
 - Do not make network requests from any workflow (no `curl`, no fetch, no reachability probes on user-supplied URLs).
-- Do not choose runtimes, install packages, scaffold implementation code, or run project test suites.
+- Initialize and Finalize do not choose runtimes, install packages, scaffold implementation code, or run project test suites. Explicit implementation tasks outside those workflows may do so with focused validation.
 
 **Links and structure:**
 - Use sentence case for Markdown headings.
