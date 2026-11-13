@@ -120,6 +120,10 @@ For more information, visit the [Learn MCP Server repo](https://aka.ms/learnmcp)
         <sub><b>Gustavo Cordido</b></sub></a><br />
             <a href="https://github.com/gcordido" title="talk">📢</a>
     </td>
+    <td align="center">
+        <sub><b>Irene Du</b></sub><br />
+        <code>@irenedu_microsoft</code>
+    </td>
 </tr></table>
 
 ### ⚖️ Trademarks
