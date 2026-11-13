@@ -73,14 +73,14 @@ Session slides will be added later.
 
 By the end of this session, you will be able to:
 
-- Build a production-ready voice agent in Microsoft Foundry: start from one of 40+ templates or with the AZD CLI and GitHub Copilot, choose a real-time model such as GPT-Live-1 or Microsoft Realtime Flash, and connect tools, knowledge, memory and guardrails.
+- Build a production-ready voice agent in Microsoft Foundry: start from one of 40+ templates or with the AZD CLI and GitHub Copilot, choose a real-time model such as GPT-Live-1 or Microsoft Realtime Flash 1, and connect tools, knowledge, memory and guardrails.
 - Deploy and operate it with confidence: release versioned agents to web and phone through Teams Phone, other telephony providers or SIP, then use tracing, monitoring and evaluation to find and fix latency and quality issues.
 - Apply proven patterns from customers in production: handing off from AI to human agents with context (Landis), multilingual service across countries (ASUS), and voice that works across cloud and edge (Leapmotor).
 
 ### 💻 Technologies used
 
 - Microsoft Foundry: Foundry Agent Service (voice agents, prompt and hosted agents), Foundry IQ, Foundry Tools (including MCP tools), guardrails, memory, observability (tracing, evals)
-- GenAI models: GPT-Live-1, Azure Realtime Flash, Azure OpenAI Realtime, GPT-6 series and broader Foundry models
+- GenAI models: GPT-Live-1, Microsoft Realtime Flash 1, Azure OpenAI Realtime, GPT-6 series and broader Foundry models
 - Azure Speech: real-time and fast transcription (including MAI-Transcribe-2), text to speech, avatar, Live Interpreter API
 - Telephony: Microsoft Teams Phone, Azure Communication Services, third-party providers, SIP
 - Azure Developer CLI (azd) and GitHub Copilot
