@@ -122,7 +122,7 @@ For more information, visit the [Learn MCP Server repo](https://aka.ms/learnmcp)
     </td>
     <td align="center">
         <sub><b>Irene Du</b></sub><br />
-        <code>@irenedu_microsoft</code>
+        <code>@toscanet</code>
     </td>
 </tr></table>
 
