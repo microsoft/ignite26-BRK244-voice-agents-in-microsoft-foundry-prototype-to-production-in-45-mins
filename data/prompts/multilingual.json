@@ -1,0 +1,14 @@
+[
+  {
+    "utterance": "Explain a rainbow in one sentence in English.",
+    "expected_behavior": "A brief English explanation."
+  },
+  {
+    "utterance": "Explica un arcoiris en una frase en espanol.",
+    "expected_behavior": "A brief Spanish explanation."
+  },
+  {
+    "utterance": "Explain a rainbow briefly, y termina en espanol.",
+    "expected_behavior": "A brief explanation that ends in Spanish."
+  }
+]
