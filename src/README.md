@@ -1,7 +1,5 @@
 # Source
 
-<!-- IGNITE TEMPLATE PLACEHOLDER: remove this folder when the session needs no source files. -->
-
 Run [notebooks 01–03](../instructions/README.md) with a local Python kernel.
 Reusable GA realtime session and audio logic lives in [shared/realtime.py](shared/realtime.py).
 These educational samples are not a production client or a deployment template.

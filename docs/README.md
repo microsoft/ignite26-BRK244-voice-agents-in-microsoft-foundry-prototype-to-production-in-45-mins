@@ -1,7 +1,5 @@
 # Docs
 
-<!-- IGNITE TEMPLATE PLACEHOLDER: remove this folder when the session needs no additional documentation. -->
-
 Read the [capability boundaries and official references](capabilities.md) before
 running live exercises. Attendee steps live in [instructions](../instructions/README.md).
 

@@ -1,7 +1,5 @@
 # Attendee instructions
 
-<!-- IGNITE TEMPLATE PLACEHOLDER: remove this folder when the session has no attendee step-by-step guidance. -->
-
 Start here for both guided and self-paced participation in BRK244.
 
 ## Current delivery status
